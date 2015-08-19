@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\addPrinter]
+@ = "URL:printMapper Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\addPrinter\DefaultIcon]
+@ ="C:\\print\\addPrinter.exe"
+
+[HKEY_CLASSES_ROOT\addPrinter\shell]
+@ = ""
+
+[HKEY_CLASSES_ROOT\addPrinter\shell\open]
+@ = ""
+
+[HKEY_CLASSES_ROOT\addPrinter\shell\open\command]
+@ = "\"C:\\print\\addPrinter.exe\" \"%1\""

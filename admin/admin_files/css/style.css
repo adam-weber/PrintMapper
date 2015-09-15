@@ -336,7 +336,7 @@ header.pane-attr {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"
 }
 #canvas-wrapper {
-  width: 900px;
+  width: 60vw !important;
   height: 550px;
   overflow: scroll;
 }

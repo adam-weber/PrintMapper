@@ -29,7 +29,6 @@
       updateGenerated(_this);
     };
     this.reset();
-    
   }
 
   Map.prototype = {
@@ -42,7 +41,7 @@
     load: function (src) {
       this.reset();
       // Src URL for the current map
-      this.image.src = "../admin_files/images/floor_plan.png";
+      this.image.src = "../../admin/admin_files/images/floor_plan.png";
     },
 
     remove: function (index) {
@@ -514,8 +513,8 @@ $(document).ready(function() {
 
 // $(document).ready(function () {
 //   $( ".pane-stack" ).draggable(
-//     { 
-//       handle: "header", 
+//     {
+//       handle: "header",
 //       snap: "#pane-stack-container",
 //       drag: function () {
 //         var offset = $(this).offset();
@@ -524,7 +523,7 @@ $(document).ready(function() {
 //         $('#posX').text('x: ' + xPos);
 //         $('#posY').text('y: ' + yPos);
 //       }
-//       // containment: "body", 
+//       // containment: "body",
 //       // scroll: false
 //     }
 //   );

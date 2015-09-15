@@ -4,8 +4,8 @@
     <div class="pane-stack">
       <div class="pane pane-group">
         <header class="pane-header">
-          <a href=#pane-edit class="pane-selected">Edit</a>
-          <a href=#pane-preview>Preview</a>
+          <a href="#pane-edit" class="pane-selected">Edit</a>
+          <a target="_blank" href="#pane-preview">Preview</a>
         </header>
         <div class="pane-content pane-selected" id="pane-edit">
           <nav>
@@ -61,7 +61,7 @@
           </header>
           <div class="pane-content" id="pane-code">
             <textarea readonly>
-              
+
             </textarea>
           </div>
         </div>

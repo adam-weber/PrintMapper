@@ -14,11 +14,10 @@
               is not recommended, the protocol handler can be changed in settings.
             </section>
             <br>
-            <a href="../files/download.php?file=addPrinter.reg" class="btn btn-download">Download</a>
+            <a href="../admin/files/download.php?file=addPrinter.reg" class="btn btn-download">Download</a>
           </li>
           <li>
             <h2>addPrinter.exe</h2>
-                          <a href="addPrinter://EngineeringCanonIR">CCI</a>
             <h4 class="details">Details</h4>
             <section class="section-hidden">
               addPrinter.exe should be installed at "C:\PrintMapper\addPrinter.exe". This location can be changed in 
@@ -58,8 +57,8 @@
     </div>
   </div>
 </body>
-<script src="../admin_files/js/jquery-2.0.2.min.js"></script>
-<script src="../admin_files/js/custom_files.js"></script>
+<script src="../../admin/admin_files/js/jquery-2.0.2.min.js"></script>
+<script src="../../admin/admin_files/js/custom_files.js"></script>
 <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
 
 <?php 

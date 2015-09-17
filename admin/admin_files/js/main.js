@@ -511,24 +511,6 @@ $(document).ready(function() {
 });
 
 
-// $(document).ready(function () {
-//   $( ".pane-stack" ).draggable(
-//     {
-//       handle: "header",
-//       snap: "#pane-stack-container",
-//       drag: function () {
-//         var offset = $(this).offset();
-//         var xPos = offset.left;
-//         var yPos = offset.top;
-//         $('#posX').text('x: ' + xPos);
-//         $('#posY').text('y: ' + yPos);
-//       }
-//       // containment: "body",
-//       // scroll: false
-//     }
-//   );
-// });
-
 var vis = (function(){
   var stateKey, eventKey, keys = {
     hidden: "visibilitychange",
@@ -562,3 +544,20 @@ vis(function(){
 
 
 
+// $(document).ready(function () {
+//   $( ".pane-stack" ).draggable(
+//     {
+//       handle: "header",
+//       snap: ".pane-stack-container",
+//       drag: function () {
+//         var offset = $(this).offset();
+//         var xPos = offset.left;
+//         var yPos = offset.top;
+//         $('#posX').text('x: ' + xPos);
+//         $('#posY').text('y: ' + yPos);
+//       }
+//       // containment: "body",
+//       // scroll: false
+//     }
+//   );
+// });

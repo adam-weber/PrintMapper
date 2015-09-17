@@ -1,5 +1,5 @@
-<?php include("../admin_files/header.php"); ?>
 <body>
+<?php include("../admin_files/header.php"); ?>
   <div id="state-started">
     <div class="pane-stack">
       <div class="pane pane-group">

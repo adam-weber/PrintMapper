@@ -11,11 +11,17 @@ The above task will be accomplished with the use of many technologies; including
 
 From the user side, clicking to install a printer (or anything) is not a simple task. It will be assumed the end-user does not have administrative privileges. There are two *tiny* files that need to be remotely (or manually) pushed out to any computers that would like to use PrintMapper.
 
-     1) A registry file that registers a custom protocol handler. This will handle custom links, such as - 
-          
+     1) A registry file that registers a custom protocol handler. This will handle custom links, such as -
+
           add-printer://BreakRoomPrinter
-     
+
      2) A very small (4kB) C# application that will "install" the printer. The link above will point to this application and        pass the printer name as a parameter.
+
+**Screen Shots**
+![Administration Panel - Adding a new printer](http://i.imgur.com/9Cmc7T0.png)
+
+![Administration Panel - File modification and download](http://i.imgur.com/I40EP8c.png)
+
 
 **To Do**
 
@@ -34,6 +40,6 @@ From the user side, clicking to install a printer (or anything) is not a simple 
 As this is currently in development, feel free to give it a try. Fork this or [download](https://github.com/adam-weber/PrintMapper/archive/master.zip) the zip. Start a PHP server with:
 
      php -S localhost:8000
-     
+
      Access from - localhost:8000/admin/map
 
